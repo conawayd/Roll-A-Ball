@@ -46,6 +46,7 @@ public class PlayerController : MonoBehaviour
         if(count >= 12)
         {
             winTextObject.SetActive(true);
+            MenuManager.NextScene();
         }
     }
 
